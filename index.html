@@ -1,0 +1,1647 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Wings Travels</title>
+    <!-- <link rel="icon" type="image/x-icon" href="/assets/images/fav-icon.webp"> -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/style/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.0/font/bootstrap-icons.min.css"
+    />
+    <!-- Slick Slider CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+    />
+    <!-- FancyBox CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css"
+    />
+  </head>
+
+  <body>
+    <header class="header-sec theme-primary-bg p-3">
+      <div class="container-fluid">
+        <div class="row align-items-center">
+          <div class="col-lg-7">
+            <div class="address">
+              <p class="mb-0 text-white px-4">
+                <i class="bi bi-geo-alt-fill"></i> Cityscapes Landing Plaza,
+                4310 104 Ave NE Unit 5134A, Calgary, AB T3N 1W5, Canada
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="mail d-flex justify-content-between">
+              <a
+                href="mailto:info@wingstravels.ca"
+                class="mail secondary-text fw-medium"
+                ><i class="bi bi-envelope text-white"></i>
+                info@wingstravels.ca</a
+              >
+            </div>
+          </div>
+          <div class="col-lg-2">
+            <div class="socials d-flex justify-content-around">
+              <a
+                href="https://www.facebook.com/wingstravelsandtour/"
+                class="text-white ps-3"
+                ><i class="bi bi-facebook"></i
+              ></a>
+              <a
+                href="https://www.instagram.com/wingstravelsandtours"
+                class="text-white"
+                ><i class="bi bi-instagram"></i
+              ></a>
+              <a
+                href="https://www.tiktok.com/@wingstravelsandtours"
+                class="text-white pe-3"
+                ><i class="bi bi-tiktok"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- navbar section  -->
+
+    <nav
+      class="navbar navbar-expand-lg navbar-light navigation-bar bg-white sticky-top"
+    >
+      <div class="container">
+        <!-- Logo -->
+        <a class="navbar-brand" href="index.html">
+          <img src="assets/images/Logo.webp" class="img-fluid" alt="Logo" />
+        </a>
+        <!-- Navbar Toggler -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- Navbar Links -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto d-flex align-items-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Home</a
+              >
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="flights.html">Flights</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="hotels.html">Hotels</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="tours.html">Tours</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="visa.html">Visa</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="gallery.html">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="blog.html">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+            <!-- Account Dropdown -->
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                id="servicesDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <i class="bi bi-person-circle primary-text fs-4"></i>
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
+                <li>
+                  <a class="dropdown-item" href="login.html"
+                    ><i class="bi bi-person primary-text"></i>Login</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="register.html"
+                    ><i class="bi bi-person-add primary-text"></i>Register</a
+                  >
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- *************** Hero section ******************** -->
+
+    <section class="abt-hero-section">
+      <div id="hero-carousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#hero-carousel"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#hero-carousel"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#hero-carousel"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#hero-carousel"
+            data-bs-slide-to="3"
+            aria-label="Slide 4"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#hero-carousel"
+            data-bs-slide-to="4"
+            aria-label="Slide 5"
+          ></button>
+        </div>
+
+        <div class="carousel-inner">
+          <div class="carousel-item active c-item">
+            <img
+              src="assets/images/slider1.webp"
+              class="d-block w-100 c-img img-fluid"
+              alt="Slide 1"
+            />
+            <div class="overlay"></div>
+            <div
+              class="carousel-caption top-0 mt-4 d-flex align-items-center justify-content-center"
+            >
+              <div class="slide-content">
+                <h1>Stay in Comfort</h1>
+                <p>
+                  Find the best hotel deals with our reliable booking service
+                </p>
+                <a href="contact.html" class="theme-dark-btn">Find Hotels</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item c-item">
+            <img
+              src="assets/images/slider2.webp"
+              class="d-block w-100 c-img img-fluid"
+              alt="Slide 2"
+            />
+            <div class="overlay"></div>
+            <div
+              class="carousel-caption top-0 mt-4 d-flex align-items-center justify-content-center"
+            >
+              <div class="slide-content">
+                <h1>
+                  Your Passport,<br />
+                  Your ticket to the world
+                </h1>
+                <p>Expert assistance for all your pasport needs</p>
+                <a href="contact.html" class="theme-dark-btn">Get Started</a>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item c-item">
+            <img
+              src="assets/images/slider3.webp"
+              class="d-block w-100 c-img img-fluid"
+              alt="Slide 3"
+            />
+            <div class="overlay"></div>
+            <div
+              class="carousel-caption top-0 mt-4 d-flex align-items-center justify-content-center"
+            >
+              <div class="slide-content">
+                <h1>Hassle-free Visa assistance</h1>
+                <p>Get expert guidance for a smooth visa application process</p>
+                <a href="contact.html" class="theme-dark-btn">Learn More</a>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item c-item">
+            <img
+              src="assets/images/slider4.webp"
+              class="d-block w-100 c-img img-fluid"
+              alt="Slide 4"
+            />
+            <div class="overlay"></div>
+            <div
+              class="carousel-caption top-0 mt-4 d-flex align-items-center justify-content-center"
+            >
+              <div class="slide-content">
+                <h1>Explore the world</h1>
+                <p>
+                  Discover exclusive tour package for unforgettable experiences
+                </p>
+                <a href="contact.html" class="theme-dark-btn">Discover Tour</a>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item c-item">
+            <img
+              src="assets/images/slider5.webp"
+              class="d-block w-100 c-img img-fluid"
+              alt="Slide 5"
+            />
+            <div class="overlay"></div>
+            <div
+              class="carousel-caption top-0 mt-4 d-flex align-items-center justify-content-center"
+            >
+              <div class="slide-content">
+                <h1>Fly with ease</h1>
+                <p>Book your flights with our seamless air ticketing service</p>
+                <a href="contact.html" class="theme-dark-btn">Book Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#hero-carousel"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#hero-carousel"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- ******************* widget section ******************* -->
+
+    <section class="section widget-section theme-light-bg">
+      <div class="container">
+        <div class="row">
+          <ul
+            class="nav widget-tabs nav-pills gap-5 mb-3"
+            id="pills-tab"
+            role="tablist"
+          >
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link active"
+                id="pills-home-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#pills-home"
+                type="button"
+                role="tab"
+                aria-controls="pills-home"
+                aria-selected="true"
+              >
+                Flights
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link"
+                id="pills-profile-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#pills-profile"
+                type="button"
+                role="tab"
+                aria-controls="pills-profile"
+                aria-selected="false"
+              >
+                Hotels
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link"
+                id="pills-contact-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#pills-contact"
+                type="button"
+                role="tab"
+                aria-controls="pills-contact"
+                aria-selected="false"
+              >
+                Tours
+              </button>
+            </li>
+          </ul>
+          <div class="tab-content" id="pills-tabContent">
+            <div
+              class="tab-pane fade show active"
+              id="pills-home"
+              role="tabpanel"
+              aria-labelledby="pills-home-tab"
+            >
+              <script
+                async
+                src="https://tp.media/content?currency=usd&trs=247400&shmarker=439741&show_hotels=false&powered_by=false&locale=en&searchUrl=book.wingstravels.ca%2Fflights&primary_override=%2332a8dd&color_button=%2332a8dd&color_icons=%2332A8DDff&dark=%23262626&light=%23FFFFFF&secondary=%23FFFFFF&special=%23C4C4C4&color_focused=%2332a8dd&border_radius=0&no_labels=true&plain=true&origin=YYC&promo_id=7879&campaign_id=100"
+                charset="utf-8"
+              ></script>
+            </div>
+
+            <div
+              class="tab-pane fade"
+              id="pills-profile"
+              role="tabpanel"
+              aria-labelledby="pills-profile-tab"
+            >
+              <script
+                async
+                src="https://tp.media/content?currency=usd&trs=247400&shmarker=439741&show_hotels=false&powered_by=false&locale=en&searchUrl=book.wingstravels.ca%2Fhotels&primary_override=%2332a8dd&color_button=%23FF991Aff&color_icons=%23FF991A&secondary=%23FFFFFF&dark=%23262626&light=%23FFFFFF&special=%23C4C4C4&color_focused=%2332a8dd&border_radius=0&no_labels=true&plain=true&promo_id=7873&campaign_id=101"
+                charset="utf-8"
+              ></script>
+            </div>
+            <div
+              class="tab-pane fade"
+              id="pills-contact"
+              role="tabpanel"
+              aria-labelledby="pills-contact-tab"
+            >
+              <script
+                async
+                src="https://c89.travelpayouts.com/content?currency=USD&trs=247400&shmarker=439741&language=en&locale=260932&layout=horizontal&cards=4&powered_by=false&promo_id=3947"
+                charset="utf-8"
+              ></script>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- **************************** cards ******************** -->
+
+    <section class="section cards theme-primary-bg">
+      <div class="container">
+        <div class="row">
+          <div class="office-gallery">
+            <div class="upgrade-content">
+              <h1 class="heading-1 text-white text-center mb-4">
+                Explore Our Hot Services
+              </h1>
+            </div>
+            <div class="slider-2">
+              <div class="">
+                <div class="gallery-img gallery-img-1 position-relative">
+                  <div class="gallery-text bg-white">
+                    <a
+                      href="contact.html"
+                      class="head-link heading-3 primary-text ps-2"
+                      >Air Tickets</a
+                    >
+                    <div class="d-flex justify-content-between">
+                      <p class="para-lg ps-2 fs-5 fw-bold">
+                        Book Your <br />
+                        Flight
+                      </p>
+                      <div class="icon px-4">
+                        <a href="contact.html"
+                          ><i
+                            class="bi bi-arrow-up-right-circle-fill primary-text fs-2"
+                          ></i>
+                        </a>
+                      </div>
+                    </div>
+
+                    <p class="para ps-2">
+                      Discover the best deals on your flights to your desired
+                      destination.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="">
+                <div class="gallery-img gallery-img-2 position-relative">
+                  <div class="gallery-text bg-white">
+                    <a
+                      href="contact.html"
+                      class="head-link heading-3 primary-text ps-2"
+                      >Hotel Bookings</a
+                    >
+                    <div class="d-flex justify-content-between">
+                      <p class="para-lg ps-2 fs-5 fw-bold">
+                        Find Best <br />
+                        Hotels
+                      </p>
+                      <div class="icon px-4">
+                        <a href="contact.html"
+                          ><i
+                            class="bi bi-arrow-up-right-circle-fill primary-text fs-2"
+                          ></i>
+                        </a>
+                      </div>
+                    </div>
+
+                    <p class="para ps-2">
+                      Discover top hotels and accommodations worldwide.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="">
+                <div class="gallery-img gallery-img-3 position-relative">
+                  <div class="gallery-text bg-white">
+                    <a
+                      href="contact.html"
+                      class="head-link heading-3 primary-text ps-2"
+                      >Passport Guidance</a
+                    >
+                    <div class="d-flex justify-content-between">
+                      <p class="para-lg ps-2 fs-5 fw-bold">
+                        Passport <br />
+                        Help
+                      </p>
+                      <div class="icon px-4">
+                        <a href="contact.html"
+                          ><i
+                            class="bi bi-arrow-up-right-circle-fill primary-text fs-2"
+                          ></i>
+                        </a>
+                      </div>
+                    </div>
+
+                    <p class="para ps-2">
+                      Getting a passport is essential for international travel.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="">
+                <div class="gallery-img gallery-img-4 position-relative">
+                  <div class="gallery-text bg-white">
+                    <a
+                      href="contact.html"
+                      class="head-link heading-3 primary-text ps-2"
+                      >Tour Packages</a
+                    >
+                    <div class="d-flex justify-content-between">
+                      <p class="para-lg ps-2 fs-5 fw-bold">
+                        Explore Tour Packages
+                      </p>
+                      <div class="icon px-4">
+                        <a href="contact.html"
+                          ><i
+                            class="bi bi-arrow-up-right-circle-fill primary-text fs-2"
+                          ></i>
+                        </a>
+                      </div>
+                    </div>
+
+                    <p class="para ps-2">
+                      Discover the world through our carefully selected tour
+                      packages.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="">
+                <div class="gallery-img gallery-img-5 position-relative">
+                  <div class="gallery-text bg-white">
+                    <a
+                      href="contact.html"
+                      class="head-link heading-3 primary-text ps-2"
+                      >Visa Guidance</a
+                    >
+                    <div class="d-flex justify-content-between">
+                      <p class="para-lg ps-2 fs-5 fw-bold">
+                        Get Visa <br />
+                        Assistance
+                      </p>
+                      <div class="icon px-4">
+                        <a href="contact.html"
+                          ><i
+                            class="bi bi-arrow-up-right-circle-fill primary-text fs-2"
+                          ></i>
+                        </a>
+                      </div>
+                    </div>
+
+                    <p class="para ps-2">
+                      Our experts simplify the visa application process for you.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ********************* welcome to wings travels ******************************** -->
+
+    <section class="section welcome-to-wings theme-light-bg">
+      <div class="container">
+        <h2 class="heading-2 secondary-text text-center">
+          Welcome to <span class="primary-text">Wings Travels</span>
+        </h2>
+        <div class="row mt-md-3 mt-2 align-items-center">
+          <div class="col-lg-7">
+            <h1 class="heading-1 secondary-text">
+              Seamless air <span class="primary-text">ticketing</span> and
+              <span class="primary-text">travel booking</span> at your
+              fingertips
+            </h1>
+            <p class="lg-para mt-3">
+              <a href="https://wingstravels.ca/" class="primary-text web-link"
+                >WingsTravels.ca</a
+              >
+              makes travel planning easy by comparing flights, hotels, car
+              rentals, and more—without booking fees. Find the best deals on
+              flights, packages, and accommodations with no hidden costs. Start
+              your hassle-free journey today!
+            </p>
+
+            <ul class="theme-check-list">
+              <li>Air Ticketing</li>
+              <li>Hotel Bookings</li>
+              <li>Tour Packages</li>
+              <li>VISA Guidance</li>
+              <li>Passport Guidance</li>
+            </ul>
+          </div>
+
+          <div class="col-lg-1"></div>
+
+          <div class="col-lg-4">
+            <div class="ticket-booking-img text-center mt-4 mt-lg-0">
+              <img
+                src="assets/images/ticket-booking.webp"
+                class="img-fluid"
+                loading="lazy"
+                alt="Image"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ********************** Popular Airline Routes **************************** -->
+
+    <section class="section popular-airline theme-primary-bg">
+      <div class="container">
+        <h2 class="heading-2 secondary-text text-center">
+          Popular <span class="text-white">Airline</span> Routes
+        </h2>
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="airline-cities">
+              <script
+                async
+                src="https://tp.media/content?currency=usd&trs=247400&shmarker=439741&destination=NYC&target_host=book.wingstravels.ca%2Fflights&locale=en&limit=6&powered_by=false&primary=%230085FF&promo_id=4044&campaign_id=100"
+                charset="utf-8"
+              ></script>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="airline-cities">
+              <script
+                async
+                src="https://tp.media/content?currency=usd&trs=247400&shmarker=439741&target_host=book.wingstravels.ca%2Fflights&locale=en&limit=6&powered_by=false&primary=%230085FF&promo_id=4044&campaign_id=100"
+                charset="utf-8"
+              ></script>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="airline-cities">
+              <script
+                async
+                src="https://tp.media/content?currency=usd&trs=247400&shmarker=439741&destination=SYD&target_host=book.wingstravels.ca%2Fflights&locale=en&limit=6&powered_by=false&primary=%230085FF&promo_id=4044&campaign_id=100"
+                charset="utf-8"
+              ></script>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="airline-cities">
+              <script
+                async
+                src="https://tp.media/content?currency=usd&trs=247400&shmarker=439741&destination=BKK&target_host=book.wingstravels.ca%2Fflights&locale=en&limit=6&powered_by=false&primary=%230085FF&promo_id=4044&campaign_id=100"
+                charset="utf-8"
+              ></script>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="airline-cities">
+              <script
+                async
+                src="https://tp.media/content?currency=usd&trs=247400&shmarker=439741&destination=DXB&target_host=book.wingstravels.ca%2Fflights&locale=en&limit=6&powered_by=false&primary=%230085FF&promo_id=4044&campaign_id=100"
+                charset="utf-8"
+              ></script>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="airline-cities">
+              <script
+                async
+                src="https://tp.media/content?currency=usd&trs=247400&shmarker=439741&destination=PAR&target_host=book.wingstravels.ca%2Fflights&locale=en&limit=6&powered_by=false&primary=%230085FF&promo_id=4044&campaign_id=100"
+                charset="utf-8"
+              ></script>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ****************** flight calender *********************** -->
+
+    <section class="section theme-light-bg">
+      <div class="container">
+        <h2 class="heading-2 secondary-text text-center">
+          <span class="primary-text">Flights</span> Calendar
+        </h2>
+        <div class="row mt-4">
+          <script
+            async
+            src="https://tp.media/content?currency=usd&trs=247400&shmarker=439741&locale=en_us&powered_by=false&one_way=true&only_direct=true&period=year&range=7%2C14&primary=%230C73FE&color_background=%23ffffff&dark=%23000000&light=%23FFFFFF&achieve=%2345AD35&promo_id=7264&campaign_id=200"
+            charset="utf-8"
+          ></script>
+        </div>
+      </div>
+    </section>
+
+    <!-- ****************** flight calender *********************** -->
+
+    <section class="section section flights-calender theme-primary-bg">
+      <div class="container">
+        <h2 class="heading-2 secondary-text text-center">
+          Best Value <span class="text-white">Trips & Tours</span>
+        </h2>
+        <div class="row mt-4">
+          <script
+            async
+            src="https://c89.travelpayouts.com/content?currency=USD&trs=247400&shmarker=439741&language=en&locale=260932&layout=horizontal&cards=8&powered_by=false&promo_id=3947"
+            charset="utf-8"
+          ></script>
+        </div>
+      </div>
+    </section>
+
+    <!-- ***************** Explore hotel map *********************** -->
+
+    <section class="section theme-light-bg explore-hotel-map">
+      <div class="container">
+        <div class="row">
+          <script
+            async
+            src="https://tp.media/content?currency=usd&trs=247400&shmarker=439741&search_host=book.wingstravels.ca%2Fhotels&locale=en&powered_by=false&draggable=true&disable_zoom=false&show_logo=false&scrollwheel=false&color=%2307AF61&contrast_color=%23ffffff&height=500&lat=51.050112&lng=-114.085285&zoom=2&radius=1&stars=0&rating_from=0&rating_to=10&promo_id=4285&campaign_id=101"
+            charset="utf-8"
+          ></script>
+        </div>
+      </div>
+    </section>
+
+    <!-- *************************** tabs *************************** -->
+
+    <section class="section living-our-values theme-primary-bg pb-0">
+      <div class="container">
+        <h2 class="heading-2 text-white text-center">
+          Upholding Our Values to Streamline <br />
+          <span class="primary-text">Travel Planning</span> &
+          <span class="primary-text">Airline Ticketing</span>
+        </h2>
+        <div class="row mt-5">
+          <!-- Left column for tabs -->
+          <div class="col-lg-4">
+            <div class="tabs" id="tabs-container">
+              <!-- Tabs will be dynamically generated here -->
+            </div>
+          </div>
+
+          <!-- Center column for content -->
+          <div class="col-lg-4">
+            <div class="tab-content" id="tab-content">
+              <!-- Content will be dynamically updated here -->
+            </div>
+          </div>
+
+          <!-- Right column for image -->
+          <div class="col-lg-4">
+            <div class="tab-img text-center" id="tab-image">
+              <!-- Image will be dynamically updated here -->
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="secure-travel py-5 theme-primary-bg d-flex align-items-center mt-5"
+      >
+        <div class="container">
+          <div class="row d-flex align-items-center justify-content-between">
+            <div class="col-lg-10">
+              <div class="d-flex align-items-center">
+                <div>
+                  <i class="bi bi-airplane-engines text-white"></i>
+                </div>
+                <div class="ps-4">
+                  <p class="para text-white mb-0">Wings Travels</p>
+                  <h2 class="heading-2 secondary-text">
+                    Ready to Secure Your Air Travel Experience?
+                  </h2>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-2">
+              <div class="mt-4 text-center" >
+                <a
+                  href="contact.html"
+                  class="theme-dark-btn secure-travel-link p-3 rounded-2 theme-secondary-bg primary-text web-link"
+                  >Contact Us</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ************************* Why choose US ***************************** -->
+
+    <section class="why-choose-us section theme-light-bg">
+      <div class="container">
+        <h2 class="heading-2 secondary-text text-center">
+          Why Choose Us for Your Next
+          <span class="primary-text">Booking</span>?
+        </h2>
+        <div class="row">
+          <div class="col-md-6 col-lg-4">
+            <div
+              class="choose-us-cards theme-primary-bg d-flex p-3 justify-content-between gap-3 rounded-3"
+            >
+              <div>
+                <i class="fa-solid fa-scale-balanced secondary-text fs-1"></i>
+              </div>
+              <div>
+                <h3 class="heading-3 text-white">Comparision</h3>
+                <p class="para text-white">
+                  Easily compare top travel sites in one search. Find the best
+                  deals on flights, hotels, and more instantly.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div
+              class="choose-us-cards theme-primary-bg d-flex p-3 justify-content-between gap-3 rounded-3"
+            >
+              <div>
+                <i class="fa-solid fa-file-invoice secondary-text fs-1"></i>
+              </div>
+              <div>
+                <h3 class="heading-3 text-white">No Extra Charges</h3>
+                <p class="para text-white">
+                  Enjoy transparent pricing with WingsTravels.ca—no booking
+                  fees, no hidden costs, just the best deals for you.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div
+              class="choose-us-cards theme-primary-bg d-flex p-3 justify-content-between gap-3 rounded-3"
+            >
+              <div>
+                <i class="fa-solid fa-check-double secondary-text fs-1"></i>
+              </div>
+              <div>
+                <h3 class="heading-3 text-white">Verified Providers</h3>
+                <p class="para text-white">
+                  At WingsTravels.ca, we prioritize your safety by featuring
+                  only trusted and reputable travel providers in our search
+                  results.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div
+              class="choose-us-cards theme-primary-bg d-flex p-3 justify-content-between gap-3 rounded-3"
+            >
+              <div>
+                <i class="fa-solid fa-star secondary-text fs-2"></i>
+              </div>
+              <div>
+                <h3 class="heading-3 text-white">Satisfied Travelers</h3>
+                <p class="para text-white">
+                  Join thousands of satisfied travelers who trusted
+                  WingsTravels.ca to discover the best hotel deals last year.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div
+              class="choose-us-cards theme-primary-bg d-flex p-3 justify-content-between gap-3 rounded-3"
+            >
+              <div>
+                <i class="fa-regular fa-copy secondary-text fs-1"></i>
+              </div>
+              <div>
+                <h3 class="heading-3 text-white">No Surprises</h3>
+                <p class="para text-white">
+                  At WingsTravels.ca, enjoy complete transparency—no extra
+                  charges or hidden fees. The price you see is the price you
+                  pay.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div
+              class="choose-us-cards theme-primary-bg d-flex p-3 justify-content-between gap-3 rounded-3"
+            >
+              <div>
+                <i
+                  class="fa-solid fa-hand-holding-dollar secondary-text fs-1"
+                ></i>
+              </div>
+              <div>
+                <h3 class="heading-3 text-white">Best Prices</h3>
+                <p class="para text-white">
+                  WingsTravels.ca searches the biggest booking platforms and
+                  local systems to ensure you find the lowest prices on flights
+                  and accommodation.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ****************** high-quality ********************* -->
+
+    <section class="section high-quality">
+      <div class="container">
+        <div class="row align-items-center justify-content-center">
+          <div class="col-lg-6">
+            <div class="high-quality-icon">
+              <a
+                href="https://youtu.be/-UbYukTFmFU"
+                class="position-relative z-3"
+                target="_self"
+              >
+                <i class="fa-regular fa-circle-play"></i>
+              </a>
+            </div>
+            <div class="high-quality-heading">
+              <h2 class="heading-2 text-white mb-4">
+                Provide high-quality and sustainable
+                <span class="primary-text">travel</span> experiences.
+              </h2>
+            </div>
+            <div class="high-quality-link mt-5">
+              <a
+                href="contact.html"
+                class="theme-dark-btn p-3 rounded-2 theme-primary-bg text-white web-link"
+                >Contact Us</a
+              >
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div
+              class="row high-quality-boxes text-white justify-content-center mt-4 gy-3"
+            >
+              <div class="col-sm-6">
+                <div class="box-div">
+                  <div class="high-quality-box-icon">
+                    <i class="fa-regular fa-handshake"></i>
+                  </div>
+                  <div class="high-quality-box-text">
+                    <p class="lg-para">We respect the individual</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="box-div">
+                  <div class="high-quality-box-icon">
+                    <i class="fa-solid fa-bell-concierge"></i>
+                  </div>
+                  <div class="high-quality-box-text">
+                    <p class="lg-para">Services Quality</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="box-div">
+                  <div class="high-quality-box-icon">
+                    <i class="fa-solid fa-stairs"></i>
+                  </div>
+                  <div class="high-quality-box-text">
+                    <p class="lg-para">Constructive Spirit</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="box-div">
+                  <div class="high-quality-box-icon">
+                    <i class="fa-solid fa-seedling"></i>
+                  </div>
+                  <div class="high-quality-box-text">
+                    <p class="lg-para">Community & Environment</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ********************* popular destinations ************************* -->
+
+    <section class="section popular-destinations">
+      <div class="container-fluid">
+        <div class="popular-destinations-top">
+          <p class="lg-para primary-text theme-secondary-bg">
+            Popular Destinations
+          </p>
+          <h2 class="heading-2 primary-text text-center mt-4">
+            Need <span class="secondary-text">travel</span> inspiration? <br />
+            Check out our most popular
+            <span class="secondary-text">destinations</span>.
+          </h2>
+        </div>
+        <div class="row mt-4 gy-4">
+          <div class="col-md-6 col-lg-3">
+            <div class="popular-cities-card">
+              <div
+                class="popular-cities-img"
+                style="
+                  background-image: linear-gradient(
+                      to top,
+                      rgba(0, 0, 0, 1) 0%,
+                      rgba(0, 0, 0, 0) 40%
+                    ),
+                    url(/assets/images/singapore.webp);
+                "
+              ></div>
+              <div class="popular-cities-text">
+                <p class="lg-para fs-3 text-white m-0">Singapore</p>
+                <h4 class="heading-4 fs-3 text-white">Asia</h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-6">
+            <div class="popular-cities-card">
+              <div
+                class="popular-cities-img"
+                style="
+                  background-image: linear-gradient(
+                      to top,
+                      rgba(0, 0, 0, 1) 0%,
+                      rgba(0, 0, 0, 0) 40%
+                    ),
+                    url(/assets/images/uk.webp);
+                "
+              ></div>
+              <div class="popular-cities-text">
+                <p class="lg-para fs-3 text-white m-0">London</p>
+                <h4 class="heading-4 fs-3 text-white">United Kingdom</h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="popular-cities-card">
+              <div
+                class="popular-cities-img"
+                style="
+                  background-image: linear-gradient(
+                      to top,
+                      rgba(0, 0, 0, 1) 0%,
+                      rgba(0, 0, 0, 0) 40%
+                    ),
+                    url(/assets/images/bangkok.webp);
+                "
+              ></div>
+              <div class="popular-cities-text">
+                <p class="lg-para fs-3 text-white m-0">Bangkok</p>
+                <h4 class="heading-4 fs-3 text-white">Thailand</h4>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <div class="popular-cities-card">
+              <div
+                class="popular-cities-img"
+                style="
+                  background-image: linear-gradient(
+                      to top,
+                      rgba(0, 0, 0, 1) 0%,
+                      rgba(0, 0, 0, 0) 40%
+                    ),
+                    url(/assets/images/rome.webp);
+                "
+              ></div>
+              <div class="popular-cities-text">
+                <p class="lg-para fs-3 text-white m-0">Rome</p>
+                <h4 class="heading-4 fs-3 text-white">Italy</h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="popular-cities-card">
+              <div
+                class="popular-cities-img"
+                style="
+                  background-image: linear-gradient(
+                      to top,
+                      rgba(0, 0, 0, 1) 0%,
+                      rgba(0, 0, 0, 0) 40%
+                    ),
+                    url(/assets/images/paris.webp);
+                "
+              ></div>
+              <div class="popular-cities-text">
+                <p class="lg-para fs-3 text-white m-0">Paris</p>
+                <h4 class="heading-4 fs-3 text-white">France</h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="popular-cities-card">
+              <div
+                class="popular-cities-img"
+                style="
+                  background-image: linear-gradient(
+                      to top,
+                      rgba(0, 0, 0, 1) 0%,
+                      rgba(0, 0, 0, 0) 40%
+                    ),
+                    url(/assets/images/dubai.webp);
+                "
+              ></div>
+              <div class="popular-cities-text">
+                <p class="lg-para fs-3 text-white m-0">Dubai</p>
+                <h4 class="heading-4 fs-3 text-white">United Arab Emirates</h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="popular-cities-card">
+              <div
+                class="popular-cities-img"
+                style="
+                  background-image: linear-gradient(
+                      to top,
+                      rgba(0, 0, 0, 1) 0%,
+                      rgba(0, 0, 0, 0) 40%
+                    ),
+                    url(/assets/images/newyork.webp);
+                "
+              ></div>
+              <div class="popular-cities-text">
+                <p class="lg-para fs-3 text-white m-0">Newyork</p>
+                <h4 class="heading-4 fs-3 text-white">United States</h4>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <div class="popular-cities-card">
+              <div
+                class="popular-cities-img"
+                style="
+                  background-image: linear-gradient(
+                      to top,
+                      rgba(0, 0, 0, 1) 0%,
+                      rgba(0, 0, 0, 0) 40%
+                    ),
+                    url(/assets/images/istanbul.webp);
+                "
+              ></div>
+              <div class="popular-cities-text">
+                <p class="lg-para fs-3 text-white m-0">Istanbul</p>
+                <h4 class="heading-4 fs-3 text-white">Turkey</h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="popular-cities-card">
+              <div
+                class="popular-cities-img"
+                style="
+                  background-image: linear-gradient(
+                      to top,
+                      rgba(0, 0, 0, 1) 0%,
+                      rgba(0, 0, 0, 0) 40%
+                    ),
+                    url(/assets/images/tokyo.webp);
+                "
+              ></div>
+              <div class="popular-cities-text">
+                <p class="lg-para fs-3 text-white m-0">Tokyo</p>
+                <h4 class="heading-4 fs-3 text-white">Japan</h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="popular-cities-card">
+              <div
+                class="popular-cities-img"
+                style="
+                  background-image: linear-gradient(
+                      to top,
+                      rgba(0, 0, 0, 1) 0%,
+                      rgba(0, 0, 0, 0) 40%
+                    ),
+                    url(/assets/images/vienna.webp);
+                "
+              ></div>
+              <div class="popular-cities-text">
+                <p class="lg-para fs-3 text-white m-0">Vienna</p>
+                <h4 class="heading-4 fs-3 text-white">Austria</h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-12 col-lg-3">
+            <div class="popular-cities-card">
+              <div
+                class="popular-cities-img"
+                style="
+                  background-image: linear-gradient(
+                      to top,
+                      rgba(0, 0, 0, 1) 0%,
+                      rgba(0, 0, 0, 0) 40%
+                    ),
+                    url(/assets/images/barcelona.webp);
+                "
+              ></div>
+              <div class="popular-cities-text">
+                <p class="lg-para fs-3 text-white m-0">Barcelona</p>
+                <h4 class="heading-4 fs-3 text-white">Spain</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ************************** achievements ********************* -->
+
+    <section class="section achievements theme-primary-bg">
+      <div class="container">
+        <div class="achievements-top">
+          <p class="lg-para primary-text theme-light-bg p-2 rounded-3">
+            Company Fact
+          </p>
+          <h2 class="heading-2 text-white text-center mt-4">ACHIEVEMENTS</h2>
+        </div>
+        <div class="row mt-4 gy-3 gy-lg-0 ">
+          <div class="col-md-6 col-lg-3">
+            <div class="achievement-cards">
+              <div class="achievement-icon">
+                <i class="fa-solid fa-person-walking-luggage"></i>
+              </div>
+              <div class="achievement-heading">
+                <h2 class="heading-2">3500+</h2>
+                <p class="lg-para mb-0">Happy Traveler</p>
+              </div>
+              <div class="achievement-text"></div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="achievement-cards">
+              <div class="achievement-icon">
+                <i class="fa-solid fa-plane-departure"></i>
+              </div>
+              <div class="achievement-heading">
+                <h2 class="heading-2">1650+</h2>
+                <p class="lg-para mb-0">Tours success</p>
+              </div>
+              <div class="achievement-text"></div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="achievement-cards">
+              <div class="achievement-icon">
+                <i class="fa-solid fa-face-smile-beam"></i>
+              </div>
+              <div class="achievement-heading">
+                <h2 class="heading-2">99.5%</h2>
+                <p class="lg-para mb-0">Positive Reviews</p>
+              </div>
+              <div class="achievement-text"></div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="achievement-cards">
+              <div class="achievement-icon">
+                <i class="fa-solid fa-award"></i>
+              </div>
+              <div class="achievement-heading">
+                <h2 class="heading-2">62k+</h2>
+                <p class="lg-para mb-0">Awards Winning</p>
+              </div>
+              <div class="achievement-text"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- **************************** blogs ********************************* -->
+
+    <section class="section blogs-section">
+      <div class="container">
+        <div class="row gy-4 gy-lg-0">
+          <div class="col-lg-4">
+            <div class="blogs-card h-100">
+              <div class="blog-img">
+                <img
+                  src="/assets/images/world travel.webp"
+                  alt="world travel"
+                  class="img-fluid"
+                  loading="lazy"
+                />
+              </div>
+              <div class="blog-heading p-4">
+                <a href="" class="heading-3 secondary-text"
+                  >Top 10 Travel Budget Destinations For 2025</a
+                >
+                <p class="para">
+                  Traveling on a budget in 2025 doesn’t mean sacrificing quality
+                  or memorable experiences.
+                </p>
+                <a href="" class="read-more"
+                  >Read More <i class="fa-solid fa-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="blogs-card h-100">
+              <div class="blog-img">
+                <img
+                  src="/assets/images/international-travel.webp"
+                  alt="world travel"
+                  class="img-fluid"
+                  loading="lazy"
+                />
+              </div>
+              <div class="blog-heading p-4">
+                <a href="" class="heading-3 secondary-text"
+                  >A Complete Guide To Visa And Passport Requirments For Popular
+                  Travel Destinations</a
+                >
+                <p class="para">
+                  Everything you need to know about visa and passport
+                  requirements for top travel destinations.
+                </p>
+                <a href="" class="read-more"
+                  >Read More <i class="fa-solid fa-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="blogs-card h-100">
+              <div class="blog-img">
+                <img
+                  src="/assets/images/tour.webp"
+                  alt="world travel"
+                  class="img-fluid"
+                  loading="lazy"
+                />
+              </div>
+              <div class="blog-heading p-4">
+                <a href="" class="heading-3 secondary-text"
+                  >Top 10 Travel Budget Destinations For 2025</a
+                >
+                <p class="para">
+                  Traveling on a budget in 2025 doesn’t mean sacrificing quality
+                  or memorable experiences.
+                </p>
+                <a href="" class="read-more"
+                  >Read More <i class="fa-solid fa-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ****************** slick slider ********************** -->
+
+    <div class="slick-slider-container overflow-hidden">
+      <div class="slick-slider">
+        <div class="slide">
+          <a href="assets/images/dubai-slider.webp" data-fancybox="gallery">
+            <img src="assets/images/dubai-slider.webp" alt="Slide 1" />
+            <div class="overlay">
+              <span class="slide-name">Dubai, UAE</span>
+            </div>
+          </a>
+        </div>
+        <div class="slide">
+          <a href="assets/images/london-slider.webp" data-fancybox="gallery">
+            <img src="assets/images/london-slider.webp" alt="Slide 2" />
+            <div class="overlay">
+              <span class="slide-name">London, UK</span>
+            </div>
+          </a>
+        </div>
+        <div class="slide">
+          <a href="assets/images/paris-slider.webp" data-fancybox="gallery">
+            <img src="assets/images/paris-slider.webp" alt="Slide 3" />
+            <div class="overlay">
+              <span class="slide-name">Paris, France</span>
+            </div>
+          </a>
+        </div>
+        <div class="slide">
+          <a href="assets/images/singapore-slider.webp" data-fancybox="gallery">
+            <img src="assets/images/singapore-slider.webp" alt="Slide 4" />
+            <div class="overlay">
+              <span class="slide-name">Singapore, Asia</span>
+            </div>
+          </a>
+        </div>
+        <div class="slide">
+          <a href="assets/images/thailand-slider.webp" data-fancybox="gallery">
+            <img src="assets/images/thailand-slider.webp" alt="Slide 5" />
+            <div class="overlay">
+              <span class="slide-name">Bangkok, Thailand</span>
+            </div>
+          </a>
+        </div>
+        <div class="slide">
+          <a href="assets/images/pink-city-slider.webp" data-fancybox="gallery">
+            <img src="assets/images/pink-city-slider.webp" alt="Slide 6" />
+            <div class="overlay">
+              <span class="slide-name">Pink City, India</span>
+            </div>
+          </a>
+        </div>
+        <div class="slide">
+          <a href="assets/images/tajmahal-slider.webp" data-fancybox="gallery">
+            <img src="assets/images/tajmahal-slider.webp" alt="Slide 7" />
+            <div class="overlay">
+              <span class="slide-name">Taj Mahal, India</span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- ***************************** after slider ****************************** -->
+    <section class="section after-slider theme-secondary-bg">
+      <div class="container-fluid">
+        <div class="row gy-4 gy-lg-0 px-md-4">
+          <div class="col-lg-5">
+            <div class="d-flex align-items-center justify-content-between pe-3">
+              <div class="d-flex gap-5">
+                <img
+                  src="assets/images/icon-headphone.webp"
+                  alt="icon"
+                  class="img-fluid icon-img"
+                  loading="lazy"
+                />
+                <p class="lg-para text-white fs-5">
+                  Need any support for <br />
+                  tour & travels ?
+                </p>
+              </div>
+
+              <a href="contact.html"
+                ><i
+                  class="fa-solid fa-square-arrow-up-right fs-1 primary-text"
+                ></i
+              ></a>
+            </div>
+          </div>
+          <div class="col-lg-1"></div>
+
+          <div class="col-lg-5">
+            <div class="d-flex align-items-center justify-content-between pe-3">
+              <div class="d-flex gap-5">
+                <img
+                  src="assets/images/icon-travel.webp"
+                  alt="icon"
+                  class="img-fluid icon-img"
+                  loading="lazy"
+                />
+                <p class="lg-para text-white fs-5">
+                  Ready to Get Started <br />
+                  With Vacations!
+                </p>
+              </div>
+
+              <a href="contact.html"
+                ><i
+                  class="fa-solid fa-square-arrow-up-right fs-1 primary-text"
+                ></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ***************************** footer ***************************** -->
+
+    <footer class="section footer pb-0">
+      <div class="container-fluid">
+        <div class="row px-5 gy-5">
+          <div class="col-sm-6 col-lg-3">
+            <div class="footer-col">
+              <div class="footer-img">
+                <img
+                  src="assets/images/Logo.webp"
+                  alt="logo"
+                  class="img-fluid"
+                  loading="lazy"
+                />
+              </div>
+              <div class="footer-text">
+                <p class="para text-white">
+                  To take trivial example which us <br />
+                  ever undertakes laborious physica exercise except obsome.
+                </p>
+              </div>
+              <div class="footer-socials">
+                <a href="https://www.facebook.com/wingstravelsandtour/"
+                  ><i class="fa-brands fa-facebook"></i
+                ></a>
+                <a href="https://www.instagram.com/wingstravelsandtours"
+                  ><i class="fa-brands fa-instagram"></i
+                ></a>
+                <a href="https://www.tiktok.com/@wingstravelsandtours"
+                  ><i class="fa-brands fa-tiktok"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-1 d-sm-none"></div>
+          <div class="col-sm-6 col-lg-2">
+            <div class="footer-col">
+              <h3 class="heading-3 text-white">Pages</h3>
+              <a href="index.html">Home</a>
+              <a href="flight.html">Flights</a>
+              <a href="hotel.html">Hotels</a>
+              <a href="tour.html">Tours</a>
+              <a href="about.html">About Us</a>
+              <a href="contact.html">Contact Us</a>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-3">
+            <div class="footer-col">
+              <h3 class="heading-3 text-white">Info</h3>
+              <a href="privacy.html">Privary Policy</a>
+              <a href="affiliate.html">Affiliate Disclosure</a>
+              <a href="terms.html">Terms and Conditions</a>
+              <a href="socialmedia.html">Social Media Disclaimer</a>
+              <a href="medical.html">Medical Disclaimer</a>
+              <a href="dmca.html">DMCA Compliance</a>
+              <a href="copyright.html">Copyright Notice</a>
+              <a href="antispam.html">Anti-spam Policy</a>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-lg-3">
+            <div class="footer-col">
+              <h3 class="heading-3 text-white">Contact</h3>
+
+              <div class="call d-flex gap-3 align-items-center">
+                <div>
+                  <i class="fa-solid fa-phone primary-text fs-5"></i>
+                </div>
+                <div>
+                  <p class="para primary-text mb-1">Drop a Line</p>
+                  <a href="tel:+1 403 800 7110">+1 403 800 7110</a>
+                </div>
+              </div>
+
+              <div class="mail d-flex gap-3 align-items-center">
+                <div>
+                  <i class="fa-solid fa-envelope primary-text fs-5"></i>
+                </div>
+                <div>
+                  <p class="para primary-text mb-1">Email Address</p>
+                  <a href="mailto:info@wingstravels.ca">info@wingstravels.ca</a>
+                </div>
+              </div>
+
+              <div class="address d-flex gap-3 align-items-center">
+                <div>
+                  <i class="fa-solid fa-location-dot primary-text fs-4"></i>
+                </div>
+                <div>
+                  <p class="para primary-text mb-1">Visit Office</p>
+                  <a
+                    href="https://www.google.com/maps?q=Cityscapes+Landing+Plaza,+4310+104+Ave+NE+Unit+5134A,+Calgary,+AB+T3N+1W5,+Canada"
+                    target="_blank"
+                  >
+                    Cityscapes Landing Plaza, 4310 104 Ave NE Unit 5134A,
+                    Calgary, AB T3N 1W5, Canada
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom theme-secondary-bg mt-5">
+        <p class="para primary-text mb-0">
+          Copyright © 2024 WingsTravels.ca | All rights reserved
+        </p>
+      </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Slick Slider JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <!-- FancyBox JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        // Initialize Slick Slider
+        $(".slick-slider").slick({
+          slidesToShow: 4,
+          slidesToScroll: 1,
+          arrows: true,
+          infinite: true, // Ensures the slider loops infinitely
+          autoplay: true, // Automatically slides (optional)
+          autoplaySpeed: 2000, // Adjust the speed of autoplay in milliseconds
+          responsive: [
+            {
+              breakpoint: 1025,
+              settings: {
+                slidesToShow: 4,
+              },
+            },
+            {
+              breakpoint: 769,
+              settings: {
+                slidesToShow: 2,
+              },
+            },
+
+            {
+              breakpoint: 481,
+              settings: {
+                slidesToShow: 1,
+              },
+            },
+          ],
+        });
+
+        // Initialize FancyBox
+        $("[data-fancybox]").fancybox({
+          buttons: ["zoom", "close"],
+          afterClose: function () {
+            // Resume the autoplay when FancyBox is closed
+            $(".slick-slider").slick("slickPlay");
+          },
+        });
+      });
+    </script>
+    <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
