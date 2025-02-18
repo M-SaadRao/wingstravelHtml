@@ -1,3 +1,5 @@
+// **************** cards ********************
+
 document.addEventListener("DOMContentLoaded", () => {
   Fancybox.bind("[data-fancybox='office-gallery']");
 });
